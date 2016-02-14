@@ -1,0 +1,153 @@
+/* CSS styles for Efelle page */
+body {
+	color: #002141;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	background-image: url(https://robcartwrightphotography.files.wordpress.com/2011/11/dsc7136_5.jpg);
+	background-position: bottom center;
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+	text-align: center;
+	border: 4px black;
+}
+
+header img {
+	height: 120px;
+	width: auto;
+	border-radius: 50%;
+	border: 2px solid #002141;
+}
+
+a:link {
+	color: #F0D200;
+	text-decoration: none;
+}
+
+a:hover {
+	text-shadow: 2px 2px 4px #B09A00;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #F0D200;
+}
+
+h1 {
+	background-color: #D9D5D0;
+	color: #5B5555;
+	width: 300px;
+	height: 20px;
+
+}
+
+h2 {
+	color: white;
+}
+
+/* my original navigation css
+nav {
+	background-color: #002141;
+	width: 100%;
+	height: 40px;
+	color: #73F2B0;
+	top: 250px;
+	position: absolute;
+	box-shadow: 0 6px 6px -4px black;
+	padding-top: 10px;
+}
+
+nav li {
+	display: inline;
+	text-decoration: none;
+	padding-right: 30px;
+}
+
+nav li a {
+	display: block;
+	width: 60px;	
+}
+*/
+
+nav {
+	top: 280px;
+	position: absolute;
+	width: 100%;
+	height: 80px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 10px;
+    overflow: hidden;
+    background-color: #002141;
+    height: 30px;
+}
+
+nav li {
+	display: inline;
+}
+
+nav li a {
+    padding: 12px;
+    text-decoration: none;
+}
+
+/* Change the link color to lighter blue on hover */
+nav li a:hover {
+	text-shadow: none;
+    background-color: #00488D;
+}
+
+section {
+	width: 100%;
+	height: 350px;
+	padding-left: 40px;
+}
+
+#obj {
+	background-color: #73F2B0;
+	box-shadow: inset 5px 5px 10px #55B282;
+	padding-top: 80px;
+}
+
+#abt {
+	background-color: #73F2B0;
+	box-shadow: 5px 5px 10px #55B282;
+}
+
+#edu {
+	background-color: #F45C88;
+	box-shadow: 5px 5px 10px #B44464;
+}
+
+#cour {
+	background-color: #F45C88;
+	box-shadow: 5px 5px 10px #B44464;
+}
+
+#skills {
+	background-color: #EA9100;
+	box-shadow: 5px #AA6900;
+}
+
+#details {
+	background-color: #EA9100;
+	box-shadow: 5px #AA6900;
+}
+
+footer {
+	width: 100%;
+	height: 100px;
+	background-color: #002141;
+	padding-top: 20px;
+}
+
+footer p {
+	color: #F45C88;
+}
+

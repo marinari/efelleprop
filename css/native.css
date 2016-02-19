@@ -1,12 +1,12 @@
 /* CSS styles for Efelle page */
 body {
 	color: #FFFFF9;
-	font-family: sans-serif;
+	font-family: 'sans-serif';
 }
 
 #blur {
 	padding: 20px;
-	background-image: url('../images/header_cobalt.png');
+	background-image: url('../images/hbg.png');
 	background-size: cover;
 	background-position: center;
 	width: 100%;
@@ -18,7 +18,7 @@ body {
 
 header {
 	padding-left: 20px;
-	padding-top: 60px;
+	padding-top: 80px;
 	width: 100%;
 	height: 300px;
 	position: absolute;
@@ -26,9 +26,16 @@ header {
 	left: 0;
 	z-index: 1;
 }
+
+header h1 {
+	font-size: 200%;
+	margin-left: 10px;
+	text-shadow: 1px 1px #0086F4;
+}
+
 header img {
 	float: left;
-	height: 120px;
+	height: 150px;
 	width: auto;
 	border-radius: 5px;
 	border: 1px solid #002141;
@@ -38,11 +45,10 @@ header img {
 header p {
 	font-style: italic;
 	margin-left: 10px;
-	width: 50%;
+	width: 40%;
 }
 
-header h1 {
-	font-size: 200%;
+header a {
 	margin-left: 10px;
 }
 
@@ -72,6 +78,10 @@ section h2 {
 	height: 400px;
 }
 
+ul {
+	list-style-type: square;
+}
+
 
 footer {
 	padding: 20px;
@@ -82,24 +92,35 @@ footer {
 }
 
 a:link {
-	color: #67E7FF;
+	color: #92FAFE;
 	text-decoration: none;
 }
 
 a:hover {
-	text-shadow: 2px 2px 4px #5CD0E5;
+	color: #002141;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #67E7FF;
+	color: #92FAFE;
 }
 
 .btn {
-  color: #FFFFF9;	
-  background-color: #9AFFC0;
-  font-size: 20px;
-  padding: 5px 10px 5px 10px;
-  border: solid white 1px;
+  background-color: #002141;
+  font-size: 14px;
+  padding: 8px 20px 8px 20px;
+  border: solid #92FAFE 1px;
+  border-radius: 5px;
   text-decoration: none;
+}
+
+.btn:hover {
+	background-color: #92FAFE;
+	/*box-shadow: 2px 0px 0px 1px #002141;*/
+	box-shadow: 2px 2px 20px 4px #002141;
+}
+
+.btn:active {
+	background-color: #92FAFE;
+	box-shadow: inset 0 4px 4px 0 black;
 }

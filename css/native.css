@@ -1,30 +1,25 @@
 /* CSS styles for Efelle page */
 body {
-	color: #002141;
+	color: white;
 }
 
 header {
-	background-image: url(https://robcartwrightphotography.files.wordpress.com/2011/11/dsc7136_5.jpg);
-	background-position: bottom center;
-	background-size: cover;
+	padding: 40px;
+	background-color: #333;
 	width: 100%;
 	height: 300px;
-	text-align: center;
-	border: 4px black;
-}
-
-.posit {
-	display: -webkit-flex;
-	display: flex;
-	-webkit-justify-content: center;
-    justify-content: center;
 }
 
 header img {
+	float: left;
 	height: 120px;
 	width: auto;
-	border-radius: 50%;
+	border-radius: 10px 20px;
 	border: 2px solid #002141;
+}
+
+header p {
+	font-style: italic;
 }
 
 a:link {
@@ -42,125 +37,42 @@ a:visited {
 }
 
 header h1 {
-	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
-	background-color: #D9D5D0;
-	color: #5B5555;
-	width: 300px;
-	height: 20px;
-
+	font-size: 200%;
 }
 
 section h2 {
-	color: white;
-	text-align: center;
-	/*background:#7f7f7f;*/
-   padding: 10px 10px 10px 10px;
-   margin-right: auto;
-   margin-left: auto;
-   width: 300px;
-  background:rgba(0,0,0,0.5);
+	color: black;
+	font-size: 150%;
 }
 
-/* my original navigation css
-nav {
-	background-color: #002141;
-	width: 100%;
-	height: 40px;
-	color: #73F2B0;
-	top: 250px;
-	position: absolute;
-	box-shadow: 0 6px 6px -4px black;
-	padding-top: 10px;
+#lcontainer {
+	float: left;
+	width: 50%;
 }
 
-nav li {
-	display: inline;
-	text-decoration: none;
-	padding-right: 30px;
+#rcontainer {
+	margin-left: 50%;
 }
 
-nav li a {
-	display: block;
-	width: 60px;	
-}
-*/
-
-nav {
-	top: 280px;
-	position: absolute;
-	width: 100%;
-	height: 80px;
+.light {
+	padding: 20px;
+	background-color: #B2B2B2;
+	height: 400px;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding-top: 10px;
-    overflow: hidden;
-    background-color: #002141;
-    height: 30px;
+.dark {
+	padding: 20px;
+	background-color: #999999;
+	height: 400px;
 }
 
-nav li {
-	display: inline;
-}
-
-nav li a {
-    padding: 12px;
-    text-decoration: none;
-}
-
-/* Change the link color to lighter blue on hover */
-nav li a:hover {
-	text-shadow: none;
-    background-color: #00488D;
-}
-
-section {
-	width: 100%;
-	height: 350px;
-	padding-left: 40px;
-}
-
-#obj {
-	background-color: #73F2B0;
-	box-shadow: inset 0 7px 9px -7px #55B282;
-	padding-top: 20px;
-}
-
-#abt {
-	background-color: #73F2B0;
-}
-
-#edu {
-	background-color: #F45C88;
-	box-shadow:inset 0 7px 9px -7px #B44464;
-}
-
-#cour {
-	background-color: #F45C88;
-}
-
-#skills {
-	background-color: #EA9100;
-	box-shadow: inset 0 7px 9px -7px #AA6900;
-}
-
-#details {
-	background-color: #EA9100;
-}
 
 footer {
-	padding-top: 80px;
+	padding: 20px;
 	width: 100%;
 	height: 100px;
-	background-color: #002141;
-	box-shadow: inset 0 7px 9px -7px #001A33;
+	background-color: #333;
+	box-shadow: inset 0 7px 9px -7px #616161;
 }
 
-footer p {
-	color: #F45C88;
-}
 

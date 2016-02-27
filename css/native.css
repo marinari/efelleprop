@@ -67,8 +67,11 @@ header {
 header h1 {
 	font-size: 200%;
 	margin-left: 10px;
-	text-shadow: 1px 1px #EEE8D5;
-	color: #268BD2;
+	text-shadow: 
+	1px 1px #FDF6E3,
+	2px 2px #EEE8D5,
+	3px 3px #C9C4B4;
+	color: #2AA198;
 	font-family: 'Comfortaa', sans-serif;
 	font-weight: 700;
 }
@@ -78,7 +81,7 @@ header img {
 	height: 160px;
 	width: auto;
 	border-radius: 5px;
-	border: 2px solid #FDF6E3;
+	border: 2px solid #C9C4B4;
 	margin: 10px;
 }
 
@@ -87,7 +90,7 @@ header p {
 	width: 50%;
 	padding-bottom: 20px;
 	padding-top: 20px;
-	font-size: 14px;
+	font-size: 16px;
 	background-color: rgba(253, 246, 227, 0.5);
 }
 
@@ -98,8 +101,8 @@ header a {
 h2 {
 	color: #2AA198;
 	font-size: 150%;
-	padding-top: 6px;
-	padding-bottom: 6px;
+	padding-top: 10px;
+	padding-bottom: 4px;
 	font-family: 'Comfortaa';
 	font-weight: 700;
 }
@@ -107,26 +110,30 @@ h2 {
 #lcontainer {
 	float: left;
 	width: 50%;
-	box-shadow: inset 0 18px 28px 0px #4B5051;
+	border-top: 4px double #C9C4B4;
 }
 
 #rcontainer {
 	margin-left: 50%;
-	box-shadow: inset 0 18px 28px 0px #4B5051;
+	border-top: 4px double #C9C4B4;
 }
 
 .light {
 	padding-left: 20px;
 	padding-right: 20px;
 	background-color: #FDF6E3;
-	height: 400px;
+	height: 450px;
 }
 
 .dark {
 	padding-left: 20px;
 	padding-right: 20px;
 	background-color: #EEE8D5;
-	height: 400px;
+	height: 450px;
+}
+
+.high {
+	font-size: 16px;
 }
 
 ul {
@@ -137,19 +144,23 @@ ul {
 }
 
 footer {
-	padding: 20px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 25%;
 	width: 100%;
-	height: 100px;
-	background-color: #EEE8D5;
-	box-shadow: inset 0 5px 9px -7px #4B5051;
+	height: 120px;
+	background-color: #C9C4B4;
+	border-top: 4px double #FDF6E3;
+	/*background-image: url('../images/wov.png');*/
+	/*box-shadow: inset 0 5px 9px -7px #4B5051;*/
 }
 
 footer p {
-	width: 60%;
+	width: 50%;
 }
 
 .btn {
-  background-color: #586E75;
+  background-color: #EEE8D5;
   font-size: 14px;
   padding: 8px 20px 8px 20px;
   border: solid #FDF6E3 1px;
@@ -159,10 +170,10 @@ footer p {
 }
 
 .btn:hover {
-	background-color: #268BD2;
+	background-color: #586E75;
 }
 
 .btn:active {
-	background-color: #268BD2;
+	background-color: #EEE8D5;
 	box-shadow: inset 0 4px 4px 0 black;
 }

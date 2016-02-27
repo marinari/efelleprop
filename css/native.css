@@ -50,7 +50,7 @@ header img {
 	height: 150px;
 	width: auto;
 	border-radius: 5px;
-	border: 1px solid #FDF6E3;
+	border: 2px solid #FDF6E3;
 	margin: 10px;
 }
 
@@ -58,6 +58,7 @@ header p {
 	margin-left: 10px;
 	width: 40%;
 	padding-bottom: 20px;
+	padding-top: 20px;
 	line-height: 1;
 	font-size: 14px;
 	background-color: rgba(253, 246, 227, 0.5);
@@ -67,7 +68,7 @@ header a {
 	margin-left: 10px;
 }
 
-section h2 {
+h2 {
 	color: #2AA198;
 	font-size: 150%;
 	padding-top: 8px;

@@ -21,13 +21,23 @@ time, mark, audio, video {
 
 /* Custom CSS styles for Efelle page */
 
-@import url(https://fonts.googleapis.com/css?family=Comfortaa);
-
 body {
 	color: #586E75;
 	font-family: 'Comfortaa', 'sans-serif';
 	font-size: 14px;
 	background-color: #FDF6E3;
+}
+a:link {
+	color: #B58900;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #268BD2;
+}
+
+a:visited {
+	color: #BF8900;
 }
 
 #blur {
@@ -90,8 +100,8 @@ header a {
 h2 {
 	color: #2AA198;
 	font-size: 150%;
-	padding-top: 8px;
-	padding-bottom: 8px;
+	padding-top: 6px;
+	padding-bottom: 6px;
 }
 
 #lcontainer {
@@ -135,22 +145,6 @@ footer {
 footer p {
 	width: 60%;
 }
-
-
-a:link {
-	color: #B58900;
-	text-decoration: none;
-	font-weight: 400;
-}
-
-a:hover {
-	color: #268BD2;
-}
-
-a:visited {
-	color: #BF8900;
-}
-
 
 .btn {
   background-color: #586E75;

@@ -2,7 +2,11 @@
 body {
 	color: #586E75;
 	font-family: 'sans-serif';
-	font-size: 14px;
+	font-size: 16px;
+}
+
+body p {
+	line-height: 150%;
 }
 
 #blur {
@@ -29,16 +33,13 @@ header {
 	top: 0;
 	left: 0;
 	z-index: 1;
-	-webkit-box-shadow: inset 0px -13px 16px -1px rgba(238,232,213,1);
-	-moz-box-shadow: inset 0px -13px 16px -1px rgba(238,232,213,1);
-	box-shadow: inset 0px -13px 16px -1px rgba(238,232,213,1);
 }
 
 header h1 {
 	font-size: 200%;
 	margin-left: 10px;
 	text-shadow: 1px 1px #EEE8D5;
-	color: #FDF6E3;
+	color: #268BD2;
 }
 
 header img {
@@ -65,7 +66,7 @@ header p {
 }
 
 section h2 {
-	color: #B58900;
+	color: #2AA198;
 	font-size: 150%;
 	padding-bottom: 5px;
 }
@@ -107,7 +108,7 @@ footer {
 }
 
 a:link {
-	color: #2AA198;
+	color: #B58900;
 	text-decoration: none;
 }
 
@@ -117,7 +118,7 @@ a:hover {
 }
 
 a:visited {
-	color: #2AA198;
+	color: #BF8900;
 }
 
 .btn {
@@ -128,7 +129,6 @@ a:visited {
   border-radius: 5px;
   text-decoration: none;
   float: left;
-  color: #FDF6E3;
 }
 
 .btn:hover {

@@ -23,7 +23,7 @@ time, mark, audio, video {
 
 body {
 	color: #586E75;
-	font-family: 'Comfortaa', 'sans-serif';
+	font-family: 'EB Garamond', sans-serif;
 	font-size: 14px;
 	background-color: #FDF6E3;
 }
@@ -71,7 +71,7 @@ header h1 {
 	margin-left: 10px;
 	text-shadow: 1px 1px #EEE8D5;
 	color: #268BD2;
-	font-family: 'Comfortaa', 'sans-serif';
+	font-family: 'EB Garamond', 'sans-serif';
 }
 
 header img {
@@ -88,7 +88,6 @@ header p {
 	width: 50%;
 	padding-bottom: 20px;
 	padding-top: 20px;
-	line-height: 1;
 	font-size: 14px;
 	background-color: rgba(253, 246, 227, 0.5);
 }
@@ -102,6 +101,8 @@ h2 {
 	font-size: 150%;
 	padding-top: 6px;
 	padding-bottom: 6px;
+	font-family: 'Comfortaa';
+	font-weight: 700;
 }
 
 #lcontainer {

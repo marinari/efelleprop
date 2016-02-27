@@ -87,15 +87,9 @@ section h2 {
 }
 
 ul {
-	list-style-type: none;
-}
-
-.light ul li {
-	background-color: #EEE8D5;
-}
-
-.dark ul li {
-	background-color: #FDF6E3;
+	list-style-type: circle;
+	margin-left: 0px;
+	padding-left: 0px;
 }
 
 footer {

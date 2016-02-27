@@ -1,4 +1,9 @@
 /* CSS styles for Efelle page */
+html, {
+	font: inherit;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
 body {
 	color: #586E75;
 	font-family: 'Open Sans', sans-serif;

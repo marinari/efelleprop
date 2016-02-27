@@ -76,20 +76,27 @@ section h2 {
 
 .light {
 	padding: 20px;
-	background-color: #002B36;
+	background-color: #FDF6E3;
 	height: 400px;
 }
 
 .dark {
 	padding: 20px;
-	background-color: #073642;
+	background-color: #EEE8D5;
 	height: 400px;
 }
 
 ul {
-	list-style-type: square;
+	list-style-type: none;
 }
 
+.light ul li {
+	background-color: #EEE8D5;
+}
+
+.dark ul li {
+	background-color: #FDF6E3;
+}
 
 footer {
 	padding: 20px;

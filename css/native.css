@@ -25,13 +25,9 @@ time, mark, audio, video {
 
 body {
 	color: #586E75;
-	font-family: 'Comfortaa', serif;
-	font-size: 16px;
+	font-family: 'Comfortaa', 'sans-serif';
+	font-size: 14px;
 	background-color: #FDF6E3;
-}
-
-body p {
-	line-height: 120%;
 }
 
 #blur {
@@ -65,7 +61,7 @@ header h1 {
 	margin-left: 10px;
 	text-shadow: 1px 1px #EEE8D5;
 	color: #268BD2;
-	font-family: 'Comfortaa', serif;
+	font-family: 'Comfortaa', 'sans-serif';
 }
 
 header img {

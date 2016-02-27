@@ -56,6 +56,10 @@ header a {
 	margin-left: 10px;
 }
 
+header p {
+	padding-bottom: 20px;
+}
+
 section h2 {
 	color: #FFF579;
 	font-size: 150%;

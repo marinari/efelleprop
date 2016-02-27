@@ -52,17 +52,13 @@ header img {
 }
 
 header p {
-	font-style: italic;
 	margin-left: 10px;
 	width: 40%;
+	padding-bottom: 20px;
 }
 
 header a {
 	margin-left: 10px;
-}
-
-header p {
-	padding-bottom: 20px;
 }
 
 section h2 {
@@ -103,7 +99,7 @@ footer {
 	padding: 20px;
 	width: 100%;
 	height: 100px;
-	background-color: #073642;
+	background-color: #EEE8D5;
 	box-shadow: inset 0 7px 9px -7px #4B5051;
 }
 
